@@ -6,7 +6,7 @@ This is a clone of the Discord App UI. For now, it has only the components and t
 - Typescipt
 - Styled Components
 
-## Check it out
+## Available on
 [Discord Clone UI](https://discordclone-ui.netlify.app)
 
 ## Special Thanks 
