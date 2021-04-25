@@ -8,3 +8,7 @@ This is a clone of the Discord App UI. For now, it has only the components and t
 
 ## Available on
 [Discord CLone UI](https://discordclone-ui.netlify.app)
+
+## Special Thanks 
+- To my friend Gabriel Fernandes, which inspired me to develop this UI clone.
+- Rocketseat team.
