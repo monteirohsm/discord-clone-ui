@@ -18,12 +18,42 @@ export const Profile = styled.div`
   align-items: center;
 `;
 
-export const Avatar = styled.div`
+export const Avatar = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
   width: 32px;
   height: 32px;
 
   border-radius: 50%;
   background-color: var(--gray);
+
+  &::after {
+    background-color: rgb(67, 181, 129);;
+    width: 2px;
+    height: 10px;
+
+    padding: 0 4px;
+
+    position: relative;
+    bottom: -10px;
+    right:  -10px; 
+
+    border-radius: 12px;
+    border: 4px solid var(--quaternary);
+
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--white);
+
+    content: '';
+
+    display: inline;
+
+  }
 `;
 
 export const UserData = styled.div`

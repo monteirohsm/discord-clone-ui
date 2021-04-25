@@ -20,14 +20,13 @@ const UserRow: React.FC<UserProps> = ({ nickname, isBot }) => {
 const UserList: React.FC = () => {
   return (
     <Container>
-      <Role>Disponível - 2</Role>
+      <Role>Disponível - 3</Role>
       <UserRow nickname='monteiro' />
+      <UserRow nickname='Gabriel Fernandes' />
+      <UserRow nickname='Sampaio Leal' />
 
       <UserRow nickname='Groovy' isBot />
-      <Role>Offline - 16</Role>
-      <UserRow nickname='Gabriel Fernandes' />
-      <UserRow nickname='Fulano' />
-      <UserRow nickname='Fulano' />
+      <Role>Offline - 14</Role>
       <UserRow nickname='Fulano' />
       <UserRow nickname='Fulano' />
       <UserRow nickname='Fulano' />

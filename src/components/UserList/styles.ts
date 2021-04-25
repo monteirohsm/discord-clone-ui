@@ -28,7 +28,7 @@ export const Container = styled.div`
 `;
 
 export const Role = styled.span`
-  margin-top: 200x;
+  margin-top: 20px;
 
   text-transform: uppercase;
   font-size: 12px;
